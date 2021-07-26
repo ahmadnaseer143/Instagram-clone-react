@@ -1,0 +1,23 @@
+.parent {
+    max-height: 90vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    z-index: -1;
+}
+  
+.child{
+    margin-top: -4vh;
+    scroll-snap-align: start;
+}
+.avatar-header-reel{
+    margin-top: 7vh;
+}
+.parent::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.parent {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

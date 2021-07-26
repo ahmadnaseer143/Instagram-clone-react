@@ -1,0 +1,40 @@
+.post-comment{
+    padding: 10px;
+}
+.post-comment p{
+    background-color: #fafafa;
+}
+.post-comment p strong{
+    padding-right: 20px;
+}
+.post-comment-type{
+    display: flex;
+    margin-top: 10px;
+}
+.post-comment-type form{
+    width: 100%;
+    display: flex;
+}
+.post-comment-type input{
+    flex: 1;
+    height: 20px;
+    border: 1px solid lightgray;
+    padding: 4px;
+}
+.post-comment-type input:focus {
+    outline: none !important;
+    border: none;
+    box-shadow: 0 0 10px #719ECE;
+}
+.post-comment-type button{
+    flex: 0;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    background-color: rgba(178,223,252,255);
+}
+.post-comment-type button:hover{
+    background-color: #0095f6;
+}

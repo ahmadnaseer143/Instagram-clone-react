@@ -1,0 +1,48 @@
+.insta-header{
+    background-color: #ffff;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.insta-img{
+    object-fit: contain;
+}
+.logout{
+    float: right;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    background-color: rgba(178,223,252,255);
+}
+.logout:hover{
+    background-color: #0095f6;
+}
+.reels-btn{
+    position: absolute;
+    right: 250px;
+    top: 18px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    background-color: rgba(178,223,252,255);
+}
+.reels-btn:hover{
+    background-color: #0095f6;
+}
+.messenger-btn{
+    position: absolute;
+    right: 330px;
+    top: 18px;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    background-color: rgba(178,223,252,255);
+}
+.messenger-btn:hover{
+    background-color: #0095f6;
+}

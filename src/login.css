@@ -1,0 +1,97 @@
+.login{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-container{
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    background-color: #ffffff;
+    border: 1px solid #e0dfdf;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    height: 15px;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #e0dfdf;
+    background-color: #fafafa;
+}
+.form input:focus { 
+    outline: none !important;
+    border-color: #bebebe;
+}
+.form button, .login-facebook-btn{
+    font-size: 15px;
+    padding: 7px;
+    width: 273px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    color: #ffff;
+    background-color: rgba(178,223,252,255);
+}
+.form button:hover{
+    background-color: #0095f6;
+}
+.or{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #e0dfdf; 
+    line-height: 0.06em;
+    margin: 23px 0 20px; 
+ } 
+ 
+.or span { 
+     background:#ffff; 
+     padding:0 10px;
+     font-size: small;
+     color: #919090; 
+ }
+ .login-container h4{
+     color: #385195;
+     font-size: large;
+ }
+ .login h5{
+    color: #5a5959;
+    font-weight: normal;
+    position: relative;
+    top: -20px;
+ }
+ .account-container{
+     margin-top: 10px;
+     padding: 0px;
+     width: 343px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-color: #ffffff;
+     border: 1px solid #e0dfdf;
+ }
+ .account-container h4, .login h4{
+    font-weight: normal;
+ }
+ .get-app{
+     text-align: center;
+     display: block;
+ }
+ .get-app a img{
+    width: 150px;
+    height: 35px;
+    margin: 0px 5px;
+ }
+.link{
+     text-decoration: none;
+     color: #8495f6;
+     font-weight: bold;
+ }
